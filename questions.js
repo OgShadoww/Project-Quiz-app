@@ -22,12 +22,33 @@ let questions = [
     },
     {
         numb:3,
-        question:'3. 2 + 2 = 4',
+        question:'3. 2 + 2 = 4?',
         answer:"True",
         options: [
             "False",
             "True",
             "5"
+        ]
+    },
+    {
+        numb:4,
+        question:'you can all?',
+        answer:"Of course",
+        options: [
+            "Of course",
+            "Maybe",
+            "No"
+        ]
+    },
+    {
+        numb:5,
+        question:'One piece - best anime?',
+        answer:"Yes",
+        answer2:"Of course",
+        options: [
+            "Yes",
+            "Of course",
+            "What is one piece"
         ]
     }
 ]

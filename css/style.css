@@ -131,8 +131,12 @@ body {
   font-weight: 400;
 }
 
+.rulles__content__list {
+  margin-right: 30px;
+}
+
 .rulles__content__list__item {
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 

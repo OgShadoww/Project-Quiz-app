@@ -118,7 +118,7 @@ function optionsSelect (a) {
 
     // check whether the user's answer matches the correct one
 
-    if(userAns == correctAns) {
+    if(userAns == correctAns || userAns == questions[current].answer2) {
         // do if matches
         a.classList.add('correct')
         a.insertAdjacentHTML('beforeend', correctIcon)
@@ -136,7 +136,6 @@ function optionsSelect (a) {
             }
         }
     }
-
     // once try
     for(let i = 0; i < allOptions; i++) {
         optionsList.children[i].classList.add('disabled')
