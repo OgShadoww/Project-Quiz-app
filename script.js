@@ -164,7 +164,6 @@ function startTime (time) {
             let addZero = timeSec.textContent
             timeSec.textContent = `0${addZero}`
         }
-
         if(time < 0) {
             clearInterval(counter)
         }
@@ -189,6 +188,10 @@ function startTimeLine (time) {
                     optionsList.children[i].setAttribute('class', 'correct quiz__content__questions__item')
                     optionsList.children[i].insertAdjacentHTML('beforeend', correctIcon)
                 }
+            }
+            // block answer
+            for(let i = 0; i < optionsList.children.length; i++) {
+                optionsList.children[i].classList.add('disabled')
             }
             // show button for next quiz
             nextBtn.style.display = 'block'
@@ -220,3 +223,4 @@ function result () {
         current = 0;
     })
 }
+

@@ -171,6 +171,8 @@ body {
 
 .quiz__header__title {
   font-size: 17px;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 .quiz__header__timer {
@@ -221,6 +223,8 @@ body {
   margin-right: 20px;
   margin-left: 40px;
   padding-left: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 .quiz__content__questions__item {
@@ -308,6 +312,19 @@ body {
 
 .congratulations {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   opacity: 0;
   pointer-events: none;
   width: 300px;
@@ -362,5 +379,42 @@ body {
 .congratulations.active {
   opacity: 1;
   pointer-events: all;
+}
+
+.congratulations__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 730px) {
+  .conteiner {
+    width: 70%;
+  }
+  .time__line {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .rulles__content__list__item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .quiz__header__title {
+    font-size: 14px;
+  }
+  .quiz__content__title {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .quiz__content__questions {
+    margin-left: 20px;
+  }
+  .quiz__content__questions__item {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
