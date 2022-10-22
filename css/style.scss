@@ -352,11 +352,30 @@ body {
 }
 
 @media(max-width:450px) {
+    .continue-quiz {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .exit-quiz {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .next-quiz {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .replay-quiz {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
     .quiz {
         &__header {
 
             &__title {
                 font-size: 14px;
+            }
+            &__timer {
+                font-size: 13px
             }
         }
 

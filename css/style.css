@@ -403,8 +403,27 @@ body {
 }
 
 @media (max-width: 450px) {
+  .continue-quiz {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  .exit-quiz {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  .next-quiz {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  .replay-quiz {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
   .quiz__header__title {
     font-size: 14px;
+  }
+  .quiz__header__timer {
+    font-size: 13px;
   }
   .quiz__content__title {
     margin-left: 20px;
