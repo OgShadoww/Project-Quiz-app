@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <!-- contect style file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- create button for start quiz -->
+    <button class="start-quiz">
+        Start quiz
+    </button>
+    <!-- create block of rulles for quiz -->
+    <div class="rulles conteiner">
+        <div class="rulles__title">
+            Some rull of this quiz
+        </div>
+        <div class="rulles__content content">
+            <ol class="rulles__content__list">
+                <li class="rulles__content__list__item">You have only 15 sec for 1 quest</li>
+                <li class="rulles__content__list__item">You can answer only 1 time</li>
+                <li class="rulles__content__list__item">You can’t change answer when time less</li>
+            </ol>
+        </div>
+        <!-- button for exit and continue quiz -->
+        <button class="exit-quiz">Exit Quiz</button>
+        <button class="continue-quiz">Continue</button>
+    </div>
+    <!-- create quest -->
+    <div class="quiz conteiner">
+        <header class="quiz__header">
+            <div class="quiz__header__title">
+                Awesome quiz
+            </div>
+            <div class="quiz__header__timer">
+                time left:
+                <div class="quiz__header__timer_time">
+                    15
+                </div>
+                <div class="time__line">
+
+                </div>
+            </div>
+        </header>
+        <div class="quiz__content content">
+            <div class="quiz__content__title">
+                <!-- <span>1. Who is a programmer</span> -->
+            </div>
+            <ul class="quiz__content__questions">
+               
+            </ul>
+        </div>
+        <footer class="quiz__footer">
+            <div class="quiz__footer__counter">
+
+            </div>
+            <button class="next-quiz">Next quiz</button>
+        </footer>
+    </div>
+    <!-- create element for congratulations, when quiz is finish -->
+    <div class="congratulations conteiner">
+        <div class="congratulations__icon">
+            <img class="congratulations__icon" src="img/crown.png" alt="">
+        </div>
+        <div class="congratulations__title">
+            <h3>You finish a test and</h3>
+            <h4>you got <p>  </p> out of <span>  </span></h4>
+        </div>
+        <button class="replay-quiz">Replay quiz</button>
+        <button class="exit-quiz">Exit quiz</button>
+    </div>
+<!-- conect javascript file -->
+<script src="questions.js"></script>
+<script src="script.js"></script>
+<!-- contect font awesome -->
+<script src="https://kit.fontawesome.com/b42cd91afd.js" crossorigin="anonymous"></script>
+</body>
+</html>
