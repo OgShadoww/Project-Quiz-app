@@ -16,23 +16,23 @@ let questions = [
         answer:"True",
         options: [
             "False",
-            "True",
-            "I dont know"
+            "I dont know",
+            "True"
         ]
     },
     {
         numb:3,
-        question:'3. 2 + 2 = 4?',
+        question:'3. Answer true or false: 2 + 2 = 4?',
         answer:"True",
         options: [
-            "False",
             "True",
+            "False",
             "5"
         ]
     },
     {
         numb:4,
-        question:'you can all?',
+        question:'4. You can all?',
         answer:"Of course",
         options: [
             "Of course",
@@ -42,13 +42,13 @@ let questions = [
     },
     {
         numb:5,
-        question:'One piece - best anime?',
+        question:'5. Is programming the future?',
         answer:"Yes",
         answer2:"Of course",
         options: [
             "Yes",
             "Of course",
-            "What is one piece"
+            "What is programming???"
         ]
     }
 ]
