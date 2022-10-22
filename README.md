@@ -5,3 +5,11 @@
 ----
 
 <h2>Preview</h2>
+
+<img src="img/preview.png"> 
+
+---
+
+<h2>Live preview</h2>
+
+![myGif](img/preview-vid.gif)
